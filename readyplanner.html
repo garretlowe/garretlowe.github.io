@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>ReadyPlanner</title>
+	<link rel="stylesheet" type="text/css" href="./readyplanner.css">
+    <script src="./scripts/jquery-3.5.1.js"></script>
+    <script src="./scripts/xlsx.full.min.js"></script>
+	<h2>ReadyPlanner</h2>
+</head>
+
+<body>
+	<div class="grid-container">
+		<div class="header">
+			<button id="save_recipe_book_button">Download Recipe Book</button>
+			<button id="generate_plan_button">Generate Meal Plan</button>
+		</div>
+		
+		<div class="recipe_list">
+			<select id="recipes" name="recipes" size="37" style="width:100%; height:80%;" multiple>
+			
+			</select>
+			<button style="min-width:100%;" id="remove_recipe_button">Remove Selected</button>
+		</div>
+		
+		<div class="recipe_info">
+			<label for="recipe_name">Recipe Name:</label>
+			<input type="text" id="recipe_name" name="recipe_name"><br><br>
+				
+			<label for="serving_count">Serving Count:</label>
+			<input type="number" id="serving_count" name="serving_count" min=0 max=100><br><br>
+			
+			<label for="recipe_times">Meal Times:</label>
+			<div id="recipe_times" name="recipe_times">
+				<input type="checkbox" id="breakfast" name="breakfast" value="breakfast">
+				<label for="breakfast">Breakfast</label><br>
+				<input type="checkbox" id="lunch" name="lunch" value="lunch">
+				<label for="lunch">Lunch</label><br>
+				<input type="checkbox" id="dinner" name="dinner" value="dinner">
+				<label for="dinner">Dinner</label><br>
+				<input type="checkbox" id="snack" name="snack" value="snack">
+				<label for="snack">Snack</label><br>
+			</div><br>
+			
+			<label for="ingredients">Ingredients:</label><br>
+			<input type="text" id="ingredient_name" name="ingredient_name" placeholder="Ingredient Name"></input>
+			<input type="text" id="preparation" name="preparation" placeholder="Prep (Grated, Chopped, etc)"></input>
+			<input type="number" id="ingredient_amount" name="ingredient_amount" placeholder="Amount" min=1 max=1000 value=1></input>
+			<select id="unit" name="unit">
+				<option value="bunch">Bunch</option>
+				<option value="can">Can</option>
+				<option value="clove">Clove</option>
+				<option value="cube">Cube</option>
+				<option value="cup">Cup</option>
+				<option value="fl oz">Fluid Ounce</option>
+				<option value="g">Gram</option>
+				<option value="inch">Inch</option>
+				<option value="ml">Milliliter</option>
+				<option value="oz">Ounce</option>
+				<option value="pinch">Pinch</option>
+				<option value="sheet">Sheet</option>
+				<option value="slice">Slice</option>
+				<option value="stalk">Stalk</option>
+				<option value="tsp">Teaspoon</option>
+				<option value="tbsp">Tablespoon</option>
+				<option value="whole">Whole</option>
+			</select>
+			<button id="add_ingredient_button">Add Ingredient</button><br>
+			<select id="ingredients" name="ingredients" size="10" style="min-width:75%; max-height:90%" multiple></select><br>
+			<button id="remove_ingredient_button">Remove Selected</button><br><br>
+			
+			<label for="procedure">Procedure:</label><br>
+			<textarea id="procedure" name="procedure" style="min-width:75%; min-height:100px"></textarea><br><br>
+			
+			<label for="recipe_link">Recipe Link:</label>
+			<input type="url" id="recipe_link" name="recipe_link" size="100" style="max-width:65%"><br><br>
+			
+			<button id="save_recipe_button">Save Recipe</button>
+			<button id="new_recipe_button">New Recipe</button><br><br>
+			<label for="recipe_book_input">Upload Recipe Book: </label>
+			<input type="file" id="recipe_book_input" accept=".json">
+		</div>
+	</div>
+	<footer>
+		<a href="https://github.com/garretlowe" rel="noopener noreferrer" target="_blank">&#169; Garret Lowe 2021</a>
+	</footer>
+	<script src="./scripts/readyplanner.js"></script>
+</body>
+
+</html>

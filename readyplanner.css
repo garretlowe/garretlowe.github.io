@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 95%;
+  width: 95%;
+  background: #131516;
+  color: #d8d4cf;
+}
+
+footer {
+	text-align:right;
+	font-weight: bold;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: green;
+}
+
+select, button, textarea {
+	background-color: #181a1b;
+	border-color: #736b5e;
+	color: #e8e6e3;
+}
+
+
+.grid-container {
+  display: grid;
+  width: 95vw;
+  height: 90vh;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 3% 94% 1%;
+  gap: 1% 1%;
+  grid-template-areas:
+    "header header"
+    "recipe_list recipe_info"
+    "footer footer";
+}
+
+.header { grid-area: header; }
+.recipe_list { grid-area: recipe_list; }
+.recipe_info { grid-area: recipe_info; }
+.footer { grid-area: footer; }
+
