@@ -1,8 +1,6 @@
 
 /* TODO
- * Implement Generate Plan button
  * Documentation
- * GitHub Hosting
  * React?
  * Login w/ SQL?
  * Calorie Counter?
@@ -266,6 +264,12 @@ function generateMealPlan(plan, shoppingList) {
 	for (dayNum in plan) {
 		planAOA.push(['Day ' + dayNum, plan[dayNum].breakfast.name, plan[dayNum].lunch.name, plan[dayNum].dinner.name, plan[dayNum].snack.name]);
 	}
+	planAOA.push([]);
+	planAOA.push(['Leftovers in Fridge:']);
+	fridge.every( leftover => {
+		planAOA.push([leftover.recipe.name, leftover.servings]);
+	});
+	
 	shoppingList.unshift(['Item Name', 'Item Amount']);
 	
 	let planWorksheet = XLS.utils.aoa_to_sheet(planAOA);
