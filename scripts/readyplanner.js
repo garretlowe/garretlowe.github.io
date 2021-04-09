@@ -232,7 +232,6 @@ saveRecipeBookButton.onclick = (e) => {
     document.body.removeChild(downloadElement);
 };
 
-// TODO
 // Generate Meal Plan
 generatePlanButton.onclick = (e) => {
 	if (recipeBook.length < 1) {
@@ -250,33 +249,35 @@ generatePlanButton.onclick = (e) => {
 		plan.push(day);
 	}
 	let shoppingList = getShoppingList(plan);
-	displayMealPlan(plan, shoppingList);
+	generateMealPlan(plan, shoppingList);
 };
 
 /// HELPER FUNCTIONS
 
-function displayMealPlan(plan, shoppingList) {
+/**
+ * Creates an XLSX file representing a meal plan and shopping list and downloads it
+ */
+function generateMealPlan(plan, shoppingList) {
 	console.log(plan, shoppingList);
 	let workbook = XLS.utils.book_new();
 	
-	// convert plan to AOA (this could probably be done cleaner or not at all)
+	// convert plan to an Array Of Arrays (this could probably be done cleaner or not at all)
 	let planAOA = [['', 'Breakfast', 'Lunch', 'Dinner', 'Snack']];
 	for (dayNum in plan) {
 		planAOA.push(['Day ' + dayNum, plan[dayNum].breakfast.name, plan[dayNum].lunch.name, plan[dayNum].dinner.name, plan[dayNum].snack.name]);
 	}
-	let shoppingListAOA = [['Item Name', 'Item Amount']];
-	shoppingList.every( item => {
-		shoppingListAOA.push(item);
-		return true;
-	});
+	shoppingList.unshift(['Item Name', 'Item Amount']);
 	
 	let planWorksheet = XLS.utils.aoa_to_sheet(planAOA);
-	let shoppingListWorksheet = XLS.utils.aoa_to_sheet(shoppingListAOA);
+	let shoppingListWorksheet = XLS.utils.aoa_to_sheet(shoppingList);
 	XLSX.utils.book_append_sheet(workbook, planWorksheet, 'Meal Plan');
 	XLSX.utils.book_append_sheet(workbook, shoppingListWorksheet, 'Shopping List');
 	XLSX.writeFile(workbook, 'meal_plan.xlsx');
 }
 
+/**
+ * Generates an array-of-arrays containg the ingredients of every recipe in the plan
+ */
 function getShoppingList(plan) {
 	let shoppingItems = {};
 	plan.every(meal => {
@@ -314,6 +315,9 @@ function getShoppingList(plan) {
 	return shoppingList;
 }
 
+/**
+ * Collects meal options and intelligently chooses a unique meal
+ */
 function chooseMeal(mealTime) {
 	let options = [];
 	// If there are leftovers in the fridge, chance to use them first.
@@ -357,6 +361,9 @@ function chooseMeal(mealTime) {
 	return meal;
 }
 
+/**
+ * Chooses a random meal from a list of options
+ */
 function pickMeal(options, fromFridge) {
 	fromFridge = fromFridge || false;
 	let meal = options[Math.floor(Math.random() * options.length)];
