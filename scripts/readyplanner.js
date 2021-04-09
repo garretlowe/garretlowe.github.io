@@ -236,6 +236,33 @@ generatePlanButton.onclick = (e) => {
 		alert('Cannot generate a meal plan without recipes.');
 		return;
 	}
+	let bFound = false;
+	let lFound = false;
+	let dFound = false;
+	let sFound = false;
+	recipeBook.every( recipe => {
+		if (!bFound && recipe.time.includes('breakfast')) {
+			console.log('breakfast found: ' + recipe.name);
+			bFound = true;
+		}
+		if (!lFound && recipe.time.includes('lunch')) {
+			console.log('lunch found: ' + recipe.name);
+			lFound = true;
+		}
+		if (!dFound && recipe.time.includes('dinner')) {
+			console.log('dinner found: ' + recipe.name);
+			dFound = true;
+		}
+		if (!sFound && recipe.time.includes('snack')) {
+			console.log('snack found: ' + recipe.name);
+			sFound = true;
+		}
+		return !(bFound && lFound && dFound && sFound);
+	});
+	if (!(bFound && lFound && dFound && sFound)) {
+		alert('Cannot generate a meal plan unless there is at least 1 recipe for each meal time.');
+		return;
+	}
 	let plan = [];
 	for (let day = 0; day < 7; day++) {
 		let day = {
@@ -264,10 +291,10 @@ function generateMealPlan(plan, shoppingList) {
 	for (dayNum in plan) {
 		planAOA.push(['Day ' + dayNum, plan[dayNum].breakfast.name, plan[dayNum].lunch.name, plan[dayNum].dinner.name, plan[dayNum].snack.name]);
 	}
-	planAOA.push([]);
-	planAOA.push(['Leftovers in Fridge:']);
+	planAOA.push(['', '', '', '', '']);
+	planAOA.push(['Leftovers in Fridge:', '', '', '', '']);
 	fridge.every( leftover => {
-		planAOA.push([leftover.recipe.name, leftover.servings]);
+		planAOA.push(['' + leftover.servings + ' ' + leftover.recipe.name, '', '', '', '']);
 	});
 	
 	shoppingList.unshift(['Item Name', 'Item Amount']);
@@ -358,6 +385,16 @@ function chooseMeal(mealTime) {
 		}
 		return true;
 	});
+	
+	// there's a chance that options will be empty, if so pick without restriction. only happens with small recipeBook
+	if (options.length < 1) {
+		recipeBook.every(recipe => {
+			if (recipe.time.includes(mealTime)) {
+				options.push(recipe);
+			}
+			return true;
+		});
+	}
 	let meal = pickMeal(options);
 	if (meal.servings > 1) {
 		fridge.push({ recipe: meal, servings: meal.servings - 1 });
