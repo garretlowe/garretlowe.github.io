@@ -1,0 +1,1134 @@
+[
+    {
+        "name": "Egg Fried Rice",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Liquid Smoke",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "tsp"
+            },
+            {
+                "name": "Peas & Carrots Mix",
+                "preparation": null,
+                "amount": 0.75,
+                "unit": "cup"
+            },
+            {
+                "name": "Sesame Oil",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tsp"
+            },
+            {
+                "name": "Vegetable Oil",
+                "preparation": null,
+                "amount": 3,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Large Egg",
+                "preparation": "Beaten",
+                "amount": 3,
+                "unit": "whole"
+            },
+            {
+                "name": "Soy Sauce",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tsp"
+            },
+            {
+                "name": "Onion",
+                "preparation": "Chopped",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "White Rice",
+                "preparation": "Dry",
+                "amount": 1,
+                "unit": "cup"
+            }
+        ],
+        "servings": 4,
+        "procedure": "Add 1 tablespoon vegetable oil and sesame oil to a large non-stick and swirl to coat. Heat over high heat until oil is shimmering. Add Onions and cook until soft and translucent. Add eggs to center of pan and cook without moving until puffed and lightly browned on one side, about 30 seconds. Fold eggs into a loose omelet and push to the side of the pan. Add remaining 2 tablespoons of oil to the pan and swirl to coat. Add rice to center of pan. Flip eggs on top of rice, then using a wooden spoon, break the rice and eggs up, tossing and stirring as you break them. Stir-fry until rice grains are loose and separated, 2 to 3 minutes. Add the frozen carrots & peas, soy sauce, and liquid smoke to the pan. Stir-fry until rice and eggs are evenly coated in the soy sauce (the rice should be more or less broken up into distinct grains without any large clumps). Remove from heat and toss to combine.",
+        "recipe_link": "https://www.seriouseats.com/recipes/2020/08/perfect-egg-fried-rice.html"
+    },
+    {
+        "name": "Spinach Puffs",
+        "time": [
+            "breakfast",
+            "lunch",
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Cream Cheese",
+                "preparation": null,
+                "amount": 8,
+                "unit": "oz"
+            },
+            {
+                "name": "Large Egg",
+                "preparation": null,
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Garlic Powder",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "tsp"
+            },
+            {
+                "name": "Black Pepper",
+                "preparation": "Grated",
+                "amount": 0.25,
+                "unit": "tsp"
+            },
+            {
+                "name": "Dried Oregano",
+                "preparation": null,
+                "amount": 0.25,
+                "unit": "tsp"
+            },
+            {
+                "name": "Frozen Spinach",
+                "preparation": "Thawed and Dried",
+                "amount": 10,
+                "unit": "oz"
+            },
+            {
+                "name": "Feta",
+                "preparation": "Crumbled",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "name": "Parmesan",
+                "preparation": "Finely Grated",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "name": "Frozen Puff Pastry",
+                "preparation": "Thawed",
+                "amount": 2,
+                "unit": "sheet"
+            }
+        ],
+        "servings": 4,
+        "procedure": "Place racks in the upper and lower thirds of your oven and preheat the oven to 400 degrees F. Spray 18 total cups in two standard muffin tins with nonstick spray. Meanwhile, place the cream cheese pieces in a wide microwave-safe bowl. Microwave in 10 second bursts until the cream cheese is very soft and melty but not so hot that it is steaming. Stir in 1 egg, garlic powder, black pepper, and oregano until well combined. In a separate large mixing bowl, combine the spinach, feta, and Parmesan with a fork, breaking apart the spinach. Scrape the cream cheese mixture on top of the spinach mixture, then stir the ingredients until well combined. Taste and adjust seasoning as desired. Unfold the first sheet of pastry on a lightly floured surface and gently roll to remove any creases (it will be a 10- or 11-inch square). Cut the pastry sheet into 9 even squares (three squares across and three down—they will be a little more than 3 inches on each side). Line the wells of the muffin pan with the pastry squares so that the center is pressed on the bottom of the muffin cups and the corners over hang the sides. With a spoon, portion the spinach filling by heaping tablespoons and place it in the center of each muffin cup, dividing it evenly among the 18 cups. Bring the four points of each puff pastry square together towards the center so that they cover the filling, then lightly press them together in the middle (no need for them to totally stick or seal). In a small bowl, beat the remaining egg to make an egg wash and brush it over the tops of the pastry. Bake the puffs, one muffin tin on each rack, for 21 to 24 minutes, until puffy and deeply golden, switching the pans' position on the upper and lower racks halfway through.  Allow to cool for 10 minutes, then run a knife carefully around the edges to gently loosen them. Transfer to a wire rack. Serve warm or at room temperature.",
+        "recipe_link": "https://www.wellplated.com/spinach-puffs/"
+    },
+    {
+        "name": "Japanese-Style Curry",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Vegetable Stock",
+                "preparation": "As Needed",
+                "amount": 3,
+                "unit": "cup"
+            },
+            {
+                "name": "Unsalted Butter",
+                "preparation": null,
+                "amount": 75,
+                "unit": "g"
+            },
+            {
+                "name": "All Purpose Flour",
+                "preparation": null,
+                "amount": 75,
+                "unit": "g"
+            },
+            {
+                "name": "Curry Powder",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Garam Masala",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Chili Powder",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "tsp"
+            },
+            {
+                "name": "Mushrooms",
+                "preparation": null,
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Onion",
+                "preparation": "Sliced Thick",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Carrot",
+                "preparation": "Peeled and Cut Irregularly",
+                "amount": 3,
+                "unit": "whole"
+            },
+            {
+                "name": "Potato",
+                "preparation": "Peeled and Cut Irregularly",
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Ketchup",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Worcestershire Sauce",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Soy Sauce",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Neutral Oil",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Apple",
+                "preparation": "Grated",
+                "amount": 1,
+                "unit": "whole"
+            }
+        ],
+        "servings": 5,
+        "procedure": "Cook Carrots and Potatoes in boiiling water until potatoes are tender. Bring Vegetable Stock up to a simmer. In a large pot, sautee Mushrooms and Onion in Neutral Oil, Salt, and Pepper until Onions are translucent. Melt Butter on medium-high until bubbling stops. Add Flour and whisk to combine. Add Curry Powder, Garam Masala, and Chili Powder. Cook until raw flour smell dissipates. Create a roux with the butter mixture and the vegetable stock. Add Ketchup, Worcestershire Sauce, Soy Sauce, Carrots, Potatoes, and Apple. Stir to combine. Season to taste. Serve with Rice.",
+        "recipe_link": "https://adamliaw.com/recipe/japanese-beef-curry/"
+    },
+    {
+        "name": "Chana Masala with Jeera Rice",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Tomato",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Onion",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Ginger",
+                "preparation": null,
+                "amount": 1,
+                "unit": "inch"
+            },
+            {
+                "name": "Garlic",
+                "preparation": null,
+                "amount": 4,
+                "unit": "clove"
+            },
+            {
+                "name": "Green Chile",
+                "preparation": null,
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Bay Leaf",
+                "preparation": null,
+                "amount": 3,
+                "unit": "whole"
+            },
+            {
+                "name": "Chili Powder",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tsp"
+            },
+            {
+                "name": "Ground Coriander",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tsp"
+            },
+            {
+                "name": "Garam Masala",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tsp"
+            },
+            {
+                "name": "Ground Turmeric",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "tsp"
+            },
+            {
+                "name": "Salt",
+                "preparation": null,
+                "amount": 1,
+                "unit": "pinch"
+            },
+            {
+                "name": "Chickpeas",
+                "preparation": null,
+                "amount": 1,
+                "unit": "can"
+            },
+            {
+                "name": "Cilantro",
+                "preparation": "Chopped",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "name": "Rice",
+                "preparation": "Dry",
+                "amount": 1.5,
+                "unit": "cup"
+            },
+            {
+                "name": "Ghee",
+                "preparation": null,
+                "amount": 6,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Cinnamon Stick",
+                "preparation": null,
+                "amount": 2,
+                "unit": "inch"
+            },
+            {
+                "name": "Clove",
+                "preparation": null,
+                "amount": 4,
+                "unit": "clove"
+            },
+            {
+                "name": "Cardamom",
+                "preparation": null,
+                "amount": 4,
+                "unit": "whole"
+            },
+            {
+                "name": "Cumin Seed",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tsp"
+            }
+        ],
+        "servings": 2,
+        "procedure": "Rice. Rince rice until water runs clear. Soak rice for 20 min; drain and set aside. Heat 2 tbsp ghee over medium. Add 1 bayleaf, 2 inch cinnamon piece, 4 cloves, 4 cardamom, and 2 tsp cumin seeds. Cook until fragrant. Add drained rice and fry for 2-3 minutes on high. Add 3 cups of water and a pinch of salt. Cover and cook on low until cooked. Leave covered off heat for 15 min. Curry. Process veggies into a pase. Fry bay leaves in 4 tbsp Ghee until fragrant. Add Paste. Cook and stir until golden brown and oils separate. Add spices and cook for 2 minutes. Add water and stir until a thick gravy forms. Add Chickpeas and cook until heated through. Finish with more oil or cilantro",
+        "recipe_link": ""
+    },
+    {
+        "name": "Tamago Kake Gohan",
+        "time": [
+            "breakfast"
+        ],
+        "ingredients": [
+            {
+                "name": "Rice",
+                "preparation": "Dry",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "name": "Large Egg",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Soy Sauce",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "tsp"
+            },
+            {
+                "name": "Salt",
+                "preparation": null,
+                "amount": 1,
+                "unit": "pinch"
+            }
+        ],
+        "servings": 1,
+        "procedure": "Cook Rice and place it into a bowl while still hot. Break the Egg into the center. Season with Soy Sauce and Salt. Stir vigorously until frothy.",
+        "recipe_link": "https://www.seriouseats.com/recipes/2016/04/tamago-kake-gohan-egg-rice-tkg-recipe-breakfast.html"
+    },
+    {
+        "name": "Veggie Dogs",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Jumbo Veggie Dog",
+                "preparation": null,
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Sausage Bun",
+                "preparation": null,
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Ketchup",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Yellow Mustard",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            }
+        ],
+        "servings": 1,
+        "procedure": null,
+        "recipe_link": null
+    },
+    {
+        "name": "PB & J Sandwich",
+        "time": [
+            "lunch",
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Peanut Butter",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Jam",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Bread",
+                "preparation": null,
+                "amount": 2,
+                "unit": "slice"
+            }
+        ],
+        "servings": 1,
+        "procedure": null,
+        "recipe_link": null
+    },
+    {
+        "name": "Butter Toast",
+        "time": [
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Bread",
+                "preparation": null,
+                "amount": 2,
+                "unit": "slice"
+            },
+            {
+                "name": "Unsalted Butter",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Salt",
+                "preparation": null,
+                "amount": 1,
+                "unit": "pinch"
+            }
+        ],
+        "servings": 1,
+        "procedure": null,
+        "recipe_link": null
+    },
+    {
+        "name": "Avocado Toast",
+        "time": [
+            "breakfast",
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Bread",
+                "preparation": null,
+                "amount": 4,
+                "unit": "slice"
+            },
+            {
+                "name": "Avocado",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Mayonnaise",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Paprika",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tsp"
+            },
+            {
+                "name": "Salt",
+                "preparation": null,
+                "amount": 1,
+                "unit": "pinch"
+            },
+            {
+                "name": "Pepper",
+                "preparation": null,
+                "amount": 1,
+                "unit": "pinch"
+            }
+        ],
+        "servings": 1,
+        "procedure": null,
+        "recipe_link": null
+    },
+    {
+        "name": "Fruit Smoothie",
+        "time": [
+            "breakfast",
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Frozen Berries",
+                "preparation": null,
+                "amount": 2,
+                "unit": "cup"
+            },
+            {
+                "name": "Milk",
+                "preparation": null,
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "name": "Chia Seeds",
+                "preparation": null,
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "name": "Peanut Butter",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Honey",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tsp"
+            }
+        ],
+        "servings": 1,
+        "procedure": null,
+        "recipe_link": null
+    },
+    {
+        "name": "Vegetarian Shepard's Pie",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Soy Sauce",
+                "preparation": null,
+                "amount": 3,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Cream Corn",
+                "preparation": null,
+                "amount": 125,
+                "unit": "g"
+            },
+            {
+                "name": "Steak Spices",
+                "preparation": null,
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Mushroom",
+                "preparation": null,
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Celery",
+                "preparation": null,
+                "amount": 2,
+                "unit": "stalk"
+            },
+            {
+                "name": "Onion",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Carrot",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Veggie Ground",
+                "preparation": null,
+                "amount": 180,
+                "unit": "g"
+            },
+            {
+                "name": "Lentil",
+                "preparation": null,
+                "amount": 1,
+                "unit": "can"
+            },
+            {
+                "name": "Sweet Potato",
+                "preparation": null,
+                "amount": 900,
+                "unit": "g"
+            }
+        ],
+        "servings": 3,
+        "procedure": "Cook It Recipe",
+        "recipe_link": null
+    },
+    {
+        "name": "Sautéed Cashew Tofu",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Soy Sauce",
+                "preparation": null,
+                "amount": 4,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Vegetable Broth",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "cube"
+            },
+            {
+                "name": "Honey",
+                "preparation": null,
+                "amount": 3,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Clove",
+                "preparation": null,
+                "amount": 2,
+                "unit": "clove"
+            },
+            {
+                "name": "Cashew",
+                "preparation": null,
+                "amount": 80,
+                "unit": "g"
+            },
+            {
+                "name": "Sambal Oelek",
+                "preparation": null,
+                "amount": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "Ginger",
+                "preparation": null,
+                "amount": 1,
+                "unit": "inch"
+            },
+            {
+                "name": "Shallot",
+                "preparation": null,
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Rice",
+                "preparation": "Dry",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "name": "Broccoli",
+                "preparation": null,
+                "amount": 1,
+                "unit": "bunch"
+            },
+            {
+                "name": "Cream 15%",
+                "preparation": null,
+                "amount": 80,
+                "unit": "ml"
+            },
+            {
+                "name": "Firm Tofu",
+                "preparation": null,
+                "amount": 400,
+                "unit": "g"
+            }
+        ],
+        "servings": 3,
+        "procedure": "Cook It Recipe",
+        "recipe_link": null
+    },
+    {
+        "name": "French Toast",
+        "time": [
+            "breakfast"
+        ],
+        "ingredients": [
+            {
+                "name": "Large Egg",
+                "preparation": null,
+                "amount": 3,
+                "unit": "whole"
+            },
+            {
+                "name": "Milk",
+                "preparation": null,
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "name": "Vanilla Extract",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Ground Cinnamon",
+                "preparation": null,
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Salt",
+                "preparation": null,
+                "amount": 1,
+                "unit": "pinch"
+            },
+            {
+                "name": "Bread",
+                "preparation": null,
+                "amount": 3,
+                "unit": "slice"
+            }
+        ],
+        "servings": 1,
+        "procedure": "Whisk together egg, milk, vanilla extract, cinnamon, and salt. Soak break in egg mixture and grill on medium until browned on both sides, flipping once. Top with more cinnamon, nutmeg, syrup, or powdered sugar.",
+        "recipe_link": null
+    },
+    {
+        "name": "Farfalle alla Trapanese",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Pecorino Romano",
+                "preparation": "Finely Grated",
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Red Bell Pepper",
+                "preparation": "Sliced",
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Yellow Zucchini",
+                "preparation": "Quartered",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Onion",
+                "preparation": "Diced",
+                "amount": 0.5,
+                "unit": "whole"
+            },
+            {
+                "name": "Red Chili Flakes",
+                "preparation": null,
+                "amount": 2,
+                "unit": "tsp"
+            },
+            {
+                "name": "Panko Bread Crumbs",
+                "preparation": null,
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Almond",
+                "preparation": "Slivered",
+                "amount": 45,
+                "unit": "g"
+            },
+            {
+                "name": "Basil",
+                "preparation": "Chopped",
+                "amount": 2,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Cherry Tomato",
+                "preparation": null,
+                "amount": 20,
+                "unit": "oz"
+            },
+            {
+                "name": "Pasta",
+                "preparation": null,
+                "amount": 240,
+                "unit": "g"
+            }
+        ],
+        "servings": 3,
+        "procedure": "Cook It Recipe",
+        "recipe_link": null
+    },
+    {
+        "name": "Quesadillas",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Tortilla",
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Cheddar Cheese",
+                "preparation": "Grated",
+                "amount": 1.5,
+                "unit": "cup"
+            },
+            {
+                "name": "Onion",
+                "preparation": "Sliced",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Red Bell Pepper",
+                "preparation": "Sliced",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Olive Oil",
+                "amount": 1,
+                "unit": "tbsp"
+            }
+        ],
+        "servings": "1",
+        "procedure": "Grate Cheese. Slice Onion and Bell Pepper. Heat Olive Oil over medium-high. Add Onion and Bell Pepper. Cook until Onions are tender.  Assemble, fold, and grill quesadillas on each side. Cut Into 3.",
+        "recipe_link": ""
+    },
+    {
+        "name": "Tofu Wrap",
+        "time": [
+            "lunch",
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Firm Tofu",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Vegetable Oil",
+                "amount": 2,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Tortilla",
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Lettuce",
+                "preparation": "Chopped",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Sriracha Sauce",
+                "amount": 2,
+                "unit": "tsp"
+            },
+            {
+                "name": "Mayo",
+                "amount": 1,
+                "unit": "tbsp"
+            }
+        ],
+        "servings": "1",
+        "procedure": "Cut tofu into strips. Chop lettuce. Heat vegetable oil over medium-high. Fry tofu until all sides are golden brown. Assemble.",
+        "recipe_link": ""
+    },
+    {
+        "name": "Tteokbokki",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Dashi Flakes",
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Water",
+                "amount": 3,
+                "unit": "cup"
+            },
+            {
+                "name": "Rice Cake",
+                "amount": 16,
+                "unit": "oz"
+            },
+            {
+                "name": "Gochujang",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "name": "Gochugaru",
+                "amount": 2,
+                "unit": "tsp"
+            },
+            {
+                "name": "Sugar",
+                "amount": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Scallion",
+                "preparation": "Sliced",
+                "amount": 0.33,
+                "unit": "cup"
+            }
+        ],
+        "servings": "2",
+        "procedure": "Combine the dashi flakes and the water in a large high-sided skillet. Fill a large bowl with water and soak the rice cakes in the broth for 10 minutes. Drain the rice cakes on a paper towel and then transfer them to a bowl until ready to use. Bring the broth to a boil. Meanwhile, combine the gochujang, gochugaru, and sugar in a small bowl. Mix until a paste forms. Add the paste to the heated broth. Once the sauce is at a simmer, add the rice cakes and cook for 7-10 minutes. Constantly stir until the sauce has thickened. Garnish with sliced scallions. ",
+        "recipe_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes"
+    },
+    {
+        "name": "Congee",
+        "time": [
+            "breakfast"
+        ],
+        "ingredients": [
+            {
+                "name": "Rice",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "name": "Chicken Stock",
+                "amount": 6,
+                "unit": "cup"
+            },
+            {
+                "name": "Ginger",
+                "preparation": "Chopped",
+                "amount": 1,
+                "unit": "inch"
+            },
+            {
+                "name": "Garlic",
+                "amount": 2,
+                "unit": "clove"
+            },
+            {
+                "name": "Shallot",
+                "preparation": "Finely Chopped",
+                "amount": 1,
+                "unit": "whole"
+            }
+        ],
+        "servings": "2",
+        "procedure": "In a pressure cooker, combine 1 cup of long grain jasmine rice with 6 cups of chicken stock along with a one inch knob of ginger, finely chopped, and 1 clove of garlic finely chopped. Cook on high pressure for 30 minutes. Quick release the pressure, and season with salt and pepper. In a pan with vegetable oil, fry up one shallot that is finely chopped and one clove of finely chopped garlic and let drain on paper towels. Add the rice cooked in chicken stock, onions, and garlic to a bowl. ",
+        "recipe_link": "https://www.bingingwithbabish.com/recipes/mulancongee"
+    },
+    {
+        "name": "Chawanmushi",
+        "time": [
+            "breakfast",
+            "snack"
+        ],
+        "ingredients": [
+            {
+                "name": "Sake",
+                "amount": 1,
+                "unit": "tsp"
+            },
+            {
+                "name": "Soy Sauce",
+                "amount": 1,
+                "unit": "tsp"
+            },
+            {
+                "name": "Shiitake Mushroom",
+                "preparation": "Thinly Sliced",
+                "amount": 2,
+                "unit": "whole"
+            },
+            {
+                "name": "Fishcake",
+                "amount": 6,
+                "unit": "slice"
+            },
+            {
+                "name": "Ginko Nut",
+                "preparation": "Cooked",
+                "amount": 6,
+                "unit": "whole"
+            },
+            {
+                "name": "Kombu",
+                "preparation": "10cm square",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Bonito Flake",
+                "amount": 1,
+                "unit": "bunch"
+            },
+            {
+                "name": "Egg",
+                "amount": 3,
+                "unit": "whole"
+            },
+            {
+                "name": "Salt",
+                "amount": 0.5,
+                "unit": "tsp"
+            }
+        ],
+        "servings": "1",
+        "procedure": "To make the dashi, place the kombu into 3 cups of cold water and bring to a simmer, removing the kombu when the water starts to steam. Add the bonito flakes to the simmering water, then turn off the heat and allow to stand for 15 minutes then strain. Crack the eggs into a measuring cup and mix gently without forming bubbles. Note the measurement of the eggs. In a separate measuring cup add the sake, salt and soy sauce and add dashi to make up three times the volume of the egg. Combine the egg and dashi together, stir gently and strain to remove any lumps. Place a few slices of shiitake in the base of a teacup. Pour the egg mixture over the shiitake to about 3 cm from the top of the teacup. Burst any bubbles with a skewer. Steam over low heat for 12 minutes. Test the custard with a skewer. If the liquid that rises from a hole made with the skewer is clear, proceed to the next step. Gently arrange the fishcake, ginko nuts and a few slices of shiitake on top of the custard and pour over a little more raw custard mix. Steam for a further 3-4 minutes.",
+        "recipe_link": "https://adamliaw.com/recipe/chawanmushi/"
+    },
+    {
+        "name": "Cauliflower Cheese",
+        "time": [
+            "lunch",
+            "dinner"
+        ],
+        "ingredients": [
+            {
+                "name": "Cauliflower",
+                "amount": 1,
+                "unit": "whole"
+            },
+            {
+                "name": "Olive Oil",
+                "amount": 3,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Milk",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "name": "Flour",
+                "amount": 4,
+                "unit": "tsp"
+            },
+            {
+                "name": "Chive",
+                "amount": 1,
+                "unit": "bunch"
+            },
+            {
+                "name": "Sriracha",
+                "amount": 2,
+                "unit": "tsp"
+            },
+            {
+                "name": "Salt",
+                "amount": 0.5,
+                "unit": "tsp"
+            },
+            {
+                "name": "Cheddar Cheese",
+                "preparation": "Grated",
+                "amount": 150,
+                "unit": "g"
+            }
+        ],
+        "servings": "2",
+        "procedure": "Use the power of finger strength to break the cauliflower into bite sized pieces. Toss in a bowl with 3 tablespoons of olive oil and some salt and pepper. Bake in the oven at 425 for 20 minutes then wrassle it up. Bake it up to another 20 but keep an eye on it. Once it’s brown enough for you, take it out. Heat the milk on medium and whisk in the flour Add in the chives, Sriracha, salt and bring to a boil. Remove from the heat then add in the cheese and wangjangle until smooth. Then either plate and drizzle or give the cauliflower a ride down the Parchment Paper Express™ and combine.",
+        "recipe_link": "https://www.youtube.com/watch?v=IP0-FgeFfEA"
+    }
+]
