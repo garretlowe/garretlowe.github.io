@@ -64,7 +64,7 @@ If you forget to do this, you will be notified when switching to another recipe 
 
 ##### Deleting a Recipe
 
-To delete a recipe, simply select it from the Recipe List on the right and click ** Remove Selected** below the recipe list.
+To delete a recipe, simply select it from the Recipe List on the right and click **Remove Selected** below the recipe list.
 
 ![Remove Recipe](images/remove_recipe.png)
 
