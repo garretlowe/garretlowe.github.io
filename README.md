@@ -18,7 +18,7 @@ Click **New Recipe** at the bottom of the page
 
 ![New Recipe](images/new_recipe.png)
 
-You will be prompted to enter a new for your recipe, do so.
+You will be prompted to enter a new name for your recipe, do so.
 
 Now select your new recipe from the recipe list on the right side of the page.
 
