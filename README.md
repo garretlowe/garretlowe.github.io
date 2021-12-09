@@ -4,7 +4,7 @@ Hosted at: [garretlowe.github.io/ReadyPlanner](https://garretlowe.github.io/Read
 
 ## Final Project for CP476 Internet Computing
 
-ReadyPlanner is a meal planning web app which takes a set of recipes entered by the user and generates a meal plan for 1 week. In doing so, it takes into account the leftovers from previous days and prioritizes them in the future. Although, this priority is not absolute and leftovers may be skipped so meals never get stale. In generates your meal plan, ReadyPlanner will also create a shopping list containing all the ingredients your will need for the week.
+ReadyPlanner is a meal planning web app which takes a set of recipes entered by the user and generates a meal plan for 1 week. In doing so, it takes into account the leftovers from previous days and prioritizes them in the future. Although, this priority is not absolute and leftovers may be skipped so meals never get stale. When it generates your meal plan, ReadyPlanner will also create a shopping list containing all the ingredients your will need for the week.
 
 ![Ready Planner UI](images/ready_planner.png)
 
