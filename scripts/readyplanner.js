@@ -172,7 +172,7 @@ recipeBookInput.onchange = (e) => {
 	let reader = new FileReader();
 	reader.readAsText(rawBook);
 	reader.onload = function() {
-		let newRecipeBook = JSON.parse(reader.result).recipe_book.recipes;
+		let newRecipeBook = JSON.parse(reader.result).recipes;
 		let addedRecipes = [];
 		newRecipeBook.every(recipe => {
 			if (validName(recipe.name, true)) {
@@ -222,7 +222,7 @@ recipeNameField.onchange = (e) => {
 saveRecipeBookButton.onclick = (e) => {
 	let downloadElement = document.createElement('a');
     downloadElement.setAttribute('href', 'data:text/plain; charset=utf-8,' + 
-			encodeURIComponent(JSON.stringify(recipeBook, null, 4)));
+			encodeURIComponent(JSON.stringify({ "recipes": recipeBook }, null, 4)));
     downloadElement.setAttribute('download', 'recipe_book.json');
     downloadElement.style.display = 'none';
     document.body.appendChild(downloadElement);
