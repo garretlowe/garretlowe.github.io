@@ -1,6 +1,6 @@
 # Ready Planner
 
-Hosted at: [garretlowe.github.io/ready-planner](https://garretlowe.github.io/ready-planner/index)
+Hosted at: [garretlowe.ca](https://garretlowe.ca/index)
 
 ## Final Project for CP476 Internet Computing
 
